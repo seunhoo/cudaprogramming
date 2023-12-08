@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{9b379538-5848-4607-9a07-bbfbeedc2b1d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="03-grid-stride-double.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="01-add-error-handling.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="99-3250billion.cu">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
